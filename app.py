@@ -72,7 +72,6 @@ if uploaded_file is not None:
                 # 準備 Prompt
                 model = genai.GenerativeModel('gemini-1.5-flash')
                 # 這裡就是你的「系統指令」
-                
                 input_prompt = f"""
                 你是一位專業營養師。請分析這張圖片中的食物：
                 1. 辨識所有食物項目。

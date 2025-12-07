@@ -70,7 +70,7 @@ if uploaded_file is not None:
         with st.spinner("AI 正在觀察你的食物...請稍候"):
             try:
                 # 準備 Prompt
-                model = genai.GenerativeModel('gemini-1.5-flash')
+                model = genai.GenerativeModel('gemini-1.5-pro')
                 
                 # 這裡就是你的「系統指令」
                 input_prompt = f"""
